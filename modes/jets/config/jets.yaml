@@ -1,0 +1,22 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_jets
+  stop_events: stop_mode_jets
+  priority: 200
+
+shots:
+  jet_left:
+    switch: s_jet_left
+  jet_right:
+    switch: s_jet_right
+  s_jet_upper:
+    switch: s_jet_upper
+
+shot_groups:
+  jets:
+    shots: jet_left, jet_right, s_jet_upper
+
+variable_player:
+  jets_hit:
+    score: 1_000

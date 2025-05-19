@@ -1,0 +1,29 @@
+#config_version=6
+
+# Base mode that starts at the beginning of each ball
+# and stops at the end of each ball.
+
+mode:
+  start_events: ball_starting
+  stop_events: ball_will_end
+  priority: 100
+
+event_player:
+  mode_base_started:
+    - start_mode_jets
+  mode_base_will_stop:
+    - stop_mode_jets
+  left_ramp_hit: start_mode_hurryup 
+
+slide_player:
+  mode_base_started: base_slide
+
+shots:
+  left_ramp:
+    switches: s_ramp_left_opto
+
+sound_player:
+  mode_base_started:
+     base_song:
+       bus: music
+       volume: 1.0
