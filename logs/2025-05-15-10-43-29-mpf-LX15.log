@@ -1,0 +1,82 @@
+2025-05-15 10:43:29,258 : INFO : root : Loading config.
+2025-05-15 10:43:29,266 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-15 10:43:29,267 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\49e243cdd9f1e1d25f58c376a5b1bcea.mpf_cache
+2025-05-15 10:43:29,458 : WARNING : ConfigProcessor : Config file in cache changed: C:\supermariopinball\modes\attract\config\attract.yaml
+2025-05-15 10:43:29,459 : INFO : ConfigProcessor : Loading config from file C:\Users\Majo\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2025-05-15 10:43:29,465 : INFO : ConfigProcessor : Loading config: C:\Users\Majo\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-05-15 10:43:29,465 : INFO : ConfigProcessor : Loading config from file C:\supermariopinball\modes\attract\config\attract.yaml.
+2025-05-15 10:43:29,469 : INFO : ConfigProcessor : Loading config: C:\supermariopinball\modes\attract\config\attract.yaml
+2025-05-15 10:43:29,474 : INFO : ConfigProcessor : Config file cache created: C:\Users\Majo\AppData\Local\Temp\d702bac24e056f3176be89df8780b321.mpf_cache
+2025-05-15 10:43:29,476 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\73f6dfef7f206545518fd71aa2c5591c.mpf_cache
+2025-05-15 10:43:29,480 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\d702bac24e056f3176be89df8780b321.mpf_cache
+2025-05-15 10:43:29,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\8a05a22d50c9fd6520be5872b6dcd994.mpf_cache
+2025-05-15 10:43:29,487 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-05-15 10:43:29,487 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-05-15-10-43-29-mpf-LX15.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\supermariopinball\\logs\\2025-05-15-10-43-29-mpf-LX15.log'}
+2025-05-15 10:43:29,487 : INFO : Machine : MPF path: C:\Users\Majo\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-05-15 10:43:29,487 : INFO : Machine : Machine path: C:\supermariopinball
+2025-05-15 10:43:29,488 : INFO : Machine : Platform: win32
+2025-05-15 10:43:29,488 : INFO : Machine : Python executable location: C:\Users\Majo\AppData\Local\Programs\Python\Python312\python.exe
+2025-05-15 10:43:29,488 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-05-15 10:43:29,498 : INFO : Machine : Initializing MPF...
+2025-05-15 10:43:29,665 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-05-15 10:43:29,708 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-05-15 10:43:29,709 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-05-15 10:43:29,709 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-05-15 10:43:29,710 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,091 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,093 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,093 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,093 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,093 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,093 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\supermariopinball\\logs\\2025-05-15-10-43-29-mpf-LX15.log', 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,093 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-05-15 10:43:30,112 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-05-15 10:43:30,114 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-05-15 10:43:30,115 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-05-15 10:43:30,129 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-05-15 10:43:30,130 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-05-15 10:43:30,130 : INFO : ball_device.bd_balltruhe : BCH: Initial count: 0
+2025-05-15 10:43:30,131 : INFO : ball_device.bd_balltruhe : State: idle
+2025-05-15 10:43:30,131 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-05-15 10:43:30,131 : INFO : ball_device.bd_plunger : State: idle
+2025-05-15 10:43:30,146 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-05-15 10:43:30,149 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-05-15 10:43:30,149 : INFO : BallController : Initial balls found: 0
+2025-05-15 10:43:30,150 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,150 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,150 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,151 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,152 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-05-15 10:43:30,153 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-05-15 10:43:30,153 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-05-15 10:43:30,154 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-05-15 10:43:30,165 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-05-15 10:43:30,166 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-05-15 10:43:30,166 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-05-15 10:43:30,166 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-05-15 10:43:30,167 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-05-15 10:43:30,167 : INFO : Mode.attract : Started. Priority: 10
+2025-05-15 10:43:30,167 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-05-15 10:43:30,167 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-05-15 10:43:30,168 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-05-15 10:43:30,168 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-05-15 10:43:30,169 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-05-15 10:43:30,232 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-05-15 10:43:30,232 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-05-15 10:43:30,232 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-05-15 10:43:33,824 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-05-15 10:43:33,927 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-05-15 10:43:35,110 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-05-15 10:43:35,209 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-05-15 10:43:51,292 : INFO : Machine : Shutting down...
+2025-05-15 10:43:51,292 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-05-15 10:43:51,297 : INFO : root : MPF run loop ended.

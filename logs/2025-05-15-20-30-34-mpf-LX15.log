@@ -1,0 +1,132 @@
+2025-05-15 20:30:34,545 : INFO : root : Loading config.
+2025-05-15 20:30:34,552 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-15 20:30:34,552 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\e7b34163051777eabf44166c3b479cd5.mpf_cache
+2025-05-15 20:30:34,675 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\1eec1546f2b92336be53a1ef9400cc83.mpf_cache
+2025-05-15 20:30:34,676 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\73f6dfef7f206545518fd71aa2c5591c.mpf_cache
+2025-05-15 20:30:34,678 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\1eec1546f2b92336be53a1ef9400cc83.mpf_cache
+2025-05-15 20:30:34,679 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\4fbb3c30d924930840d7c7977ab841cd.mpf_cache
+2025-05-15 20:30:34,680 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\6c98d128194b8b8ae6efc90a9efedc0e.mpf_cache
+2025-05-15 20:30:34,683 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Majo\AppData\Local\Temp\100c2702f9191071647a91d977b417b1.mpf_cache
+2025-05-15 20:30:34,685 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-05-15 20:30:34,685 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-05-15-20-30-34-mpf-LX15.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\SuperMarioPinball\\logs\\2025-05-15-20-30-34-mpf-LX15.log'}
+2025-05-15 20:30:34,685 : INFO : Machine : MPF path: C:\Users\Majo\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpf
+2025-05-15 20:30:34,685 : INFO : Machine : Machine path: C:\SuperMarioPinball
+2025-05-15 20:30:34,685 : INFO : Machine : Platform: win32
+2025-05-15 20:30:34,685 : INFO : Machine : Python executable location: C:\Users\Majo\AppData\Local\Programs\Python\Python312\python.exe
+2025-05-15 20:30:34,685 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-05-15 20:30:34,693 : INFO : Machine : Initializing MPF...
+2025-05-15 20:30:34,853 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-05-15 20:30:34,892 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-05-15 20:30:34,892 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-05-15 20:30:34,892 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-05-15 20:30:34,893 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,138 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,139 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,139 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,139 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,139 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,139 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\SuperMarioPinball\\logs\\2025-05-15-20-30-34-mpf-LX15.log', 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,139 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-05-15 20:30:35,181 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-05-15 20:30:35,181 : INFO : SwitchController : Found active switch: ('1-0-18', <Platform.Virtual>) <switch.s_balltruhe_1>
+2025-05-15 20:30:35,181 : INFO : SwitchController : Found active switch: ('1-0-19', <Platform.Virtual>) <switch.s_balltruhe_2>
+2025-05-15 20:30:35,181 : INFO : SwitchController : Found active switch: ('1-0-20', <Platform.Virtual>) <switch.s_balltruhe_3>
+2025-05-15 20:30:35,182 : INFO : SwitchController : Found active switch: ('1-0-21', <Platform.Virtual>) <switch.s_balltruhe_4>
+2025-05-15 20:30:35,182 : INFO : SwitchController : Found active switch: ('1-0-22', <Platform.Virtual>) <switch.s_balltruhe_5>
+2025-05-15 20:30:35,182 : INFO : SwitchController : Found active switch: ('1-0-23', <Platform.Virtual>) <switch.s_balltruhe_6>
+2025-05-15 20:30:35,186 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-05-15 20:30:35,190 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-05-15 20:30:35,212 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-05-15 20:30:35,214 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-05-15 20:30:35,215 : INFO : ball_device.bd_balltruhe : BCH: Initial count: 6
+2025-05-15 20:30:35,215 : INFO : ball_device.bd_balltruhe : State: idle
+2025-05-15 20:30:35,215 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-05-15 20:30:35,216 : INFO : ball_device.bd_plunger : State: idle
+2025-05-15 20:30:35,244 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-05-15 20:30:35,248 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-05-15 20:30:35,249 : INFO : BallController : Initial balls found: 6
+2025-05-15 20:30:35,252 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,252 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,252 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_balltruhe_1'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,252 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_balltruhe_2'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,252 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_balltruhe_3'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,253 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_balltruhe_4'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,253 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_balltruhe_5'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,253 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_balltruhe_6'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,254 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_balltruhe_jam'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,254 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_left'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,254 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_right'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,254 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger_lane'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,254 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,254 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_upper_flipper'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,255 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,255 : INFO : EventManager : Event: ======'machine_var_audits_shots_hurryup'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,256 : INFO : EventManager : Event: ======'machine_var_audits_shots_jet_left'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,256 : INFO : EventManager : Event: ======'machine_var_audits_shots_jet_right'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,256 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_ramp'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,256 : INFO : EventManager : Event: ======'machine_var_audits_shots_s_jet_upper'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,256 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_balltruhe_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,258 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,258 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,258 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_jet_left'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,258 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_jet_right'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,258 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_jet_upper'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,259 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,259 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_left_opto'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,259 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,259 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-15 20:30:35,260 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-05-15 20:30:35,260 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-05-15 20:30:35,261 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-05-15 20:30:35,276 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-05-15 20:30:35,277 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-05-15 20:30:35,277 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-05-15 20:30:35,277 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-05-15 20:30:35,278 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-05-15 20:30:35,279 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-05-15 20:30:35,279 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-05-15 20:30:35,282 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-05-15 20:30:35,283 : INFO : Mode.attract : Started. Priority: 10
+2025-05-15 20:30:35,283 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-05-15 20:30:35,283 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-05-15 20:30:35,285 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-05-15 20:30:35,286 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-05-15 20:30:35,286 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-05-15 20:30:35,288 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-05-15 20:30:35,370 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-05-15 20:30:35,371 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-05-15 20:30:35,371 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-05-15 20:30:36,524 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-05-15 20:30:36,524 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-05-15 20:30:36,524 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-05-15 20:30:36,525 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-05-15 20:30:36,637 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-05-15 20:30:37,819 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-05-15 20:30:37,821 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-05-15 20:30:37,821 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-05-15 20:30:37,822 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-05-15 20:30:37,955 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-05-15 20:30:38,387 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-05-15 20:30:38,388 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-05-15 20:30:38,388 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2025-05-15 20:30:38,389 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-05-15 20:30:38,505 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-05-15 20:30:39,170 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-05-15 20:30:39,171 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-05-15 20:30:39,171 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-05-15 20:30:39,173 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-05-15 20:30:39,287 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-05-15 20:30:40,255 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2025-05-15 20:30:40,256 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2025-05-15 20:30:40,256 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2025-05-15 20:30:40,257 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-05-15 20:30:40,359 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2025-05-15 20:30:41,307 : INFO : Machine : Shutting down...
+2025-05-15 20:30:41,307 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-05-15 20:30:41,310 : INFO : root : MPF run loop ended.
