@@ -1,0 +1,44 @@
+events:
+  game_ended: 0
+  game_started: 15
+missing_switches:
+  s_balltruhe_1: 15
+  s_balltruhe_2: 15
+  s_balltruhe_3: 15
+  s_balltruhe_4: 15
+  s_balltruhe_5: 15
+  s_balltruhe_6: 15
+  s_balltruhe_jam: 15
+  s_flipper_left: 15
+  s_flipper_right: 15
+  s_plunger_lane: 15
+  s_start: 4
+  s_upper_flipper: 15
+player:
+  score:
+    average: 0
+    top: []
+    total: 0
+shots:
+  hurryup: 10
+  jet_left: 53
+  jet_right: 54
+  left_ramp: 28
+  s_jet_upper: 44
+switches:
+  s_balltruhe_1: 0
+  s_balltruhe_2: 0
+  s_balltruhe_3: 0
+  s_balltruhe_4: 0
+  s_balltruhe_5: 0
+  s_balltruhe_6: 0
+  s_balltruhe_jam: 0
+  s_flipper_left: 0
+  s_flipper_right: 0
+  s_jet_left: 53
+  s_jet_right: 54
+  s_jet_upper: 44
+  s_plunger_lane: 0
+  s_ramp_left_opto: 28
+  s_start: 7
+  s_upper_flipper: 0
