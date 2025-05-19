@@ -14,6 +14,7 @@ switches:
   s_start:
     number: 
     tags: start
+    
   # Trough Switches
   s_balltruhe_jam:
     number: 1-0-17
@@ -33,6 +34,7 @@ switches:
     number: 1-0-23
   s_plunger_lane:
     number: 0-0-3  
+    
   # Playfield Switches
   s_jet_right:
     number: 
