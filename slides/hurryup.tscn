@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=3 uid="uid://bx16ijm82nqmk"]
+
+[ext_resource type="Script" uid="uid://cmgpwt6x3ti4k" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_mdrpy"]
+[ext_resource type="Texture2D" uid="uid://betix6ltrntpc" path="res://images/images/HurryUp.jpeg" id="2_ndsnu"]
+[ext_resource type="Script" uid="uid://bm7w4wqf8eyaq" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_u4kvt"]
+
+[node name="Hurryup" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+script = ExtResource("1_mdrpy")
+metadata/_custom_type_script = "uid://cmgpwt6x3ti4k"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(640, 360)
+scale = Vector2(0.666667, 0.666667)
+texture = ExtResource("2_ndsnu")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0.882353, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.956863, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.152941, 0.117647, 0.313726, 1)
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 140
+text = "Hurry Up !!!"
+horizontal_alignment = 1
+
+[node name="MPFVariable" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 120
+text = "100,000"
+horizontal_alignment = 1
+script = ExtResource("3_u4kvt")
+variable_type = 1
+variable_name = "current_hurryup"
+comma_separate = true
+initialize_empty = false
+update_event = "hurryup_value"
+metadata/_custom_type_script = "uid://bm7w4wqf8eyaq"
