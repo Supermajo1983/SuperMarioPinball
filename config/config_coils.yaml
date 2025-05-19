@@ -1,0 +1,9 @@
+#config_version=6
+
+coils:
+  c_plunger_eject:
+    number: 0-0-4
+    default_pulse_ms: 8 #17
+  c_drain_eject:
+    number: 0-0-0
+    default_pulse_ms: 22 #20

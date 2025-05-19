@@ -1,0 +1,45 @@
+#config_version=6
+
+switches:
+  # Cabinet Switches
+  s_flipper_left:
+    number: 0-0-16
+    tags: left_flipper
+  s_flipper_right:
+    number: 0-0-17
+    tags: right_flipper
+  s_upper_flipper:
+    number: 0-0-18
+    tags: upper_flipper
+  s_start:
+    number: 
+    tags: start
+  # Trough Switches
+  s_balltruhe_jam:
+    number: 1-0-17
+    type: 'NC'        
+  s_balltruhe_1:
+    number: 1-0-18
+    type: 'NC' 
+  s_balltruhe_2:
+    number: 1-0-19
+  s_balltruhe_3:
+    number: 1-0-20    
+  s_balltruhe_4:
+    number: 1-0-21
+  s_balltruhe_5:
+    number: 1-0-22
+  s_balltruhe_6:
+    number: 1-0-23
+  s_plunger_lane:
+    number: 0-0-3  
+  # Playfield Switches
+  s_jet_right:
+    number: 
+  s_jet_left:
+    number: 
+  s_jet_upper:
+    number: 
+  s_ramp_left_opto:
+    number: 
+    type: 'NC'    

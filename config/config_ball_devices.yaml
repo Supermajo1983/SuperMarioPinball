@@ -1,0 +1,15 @@
+#config_version=6
+
+ball_devices:
+  bd_balltruhe:
+    ball_switches: s_balltruhe_1, s_balltruhe_2, s_balltruhe_3, s_balltruhe_4, s_balltruhe_5, s_balltruhe_6
+    eject_coil: c_drain_eject
+    eject_targets: bd_plunger
+    tags: drain, home, trough
+    eject_timeouts: 1s
+
+  bd_plunger:
+    ball_switches: s_plunger_lane
+    eject_coil: c_plunger_eject
+    player_controlled_eject_event: s_launch_button_active
+    eject_timeouts: 1s
